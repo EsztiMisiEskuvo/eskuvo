@@ -1,0 +1,45 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": ""
+  },
+  "text": {
+    "intro": "A hálózatban a csompópontok ti vagytok (az egyes vendégek), míg az élek (az általunk vélt vagy valós) kapcsolatok közöttetek. A hálózatot úgy bontottuk közösségekre algoritmikusan, hogy az azonos közösségbe tartozó csomópontok között a lehető legtöbb él legyen, míg a különböző közösségek között a lehető legkevesebb. Ezt nevezzük modularitásnak.  A modularity class (azaz a szín) azt jelzi, melyik vendég melyik közösséghez tartozik. A csomópontok mérete a kapcsolatok számával arányos, tehát minél nagyobb egy csomópont, annál több embert ismer az adott vendég. </br></br> Fontos megjegyezni, hogy a csomópontok közötti távolságok nem a kapcsolatok tényleges szorosságát jelentik, ezek hálózatelméleti számításokon alapulnak, amelyek ezt a konkrét kapcsolati hálót jellemzik.</br></br> A csomópontokra kattintva felderíthető a kapcsolati háló. Jobb oldalon láthatóvá válik a vendég neve, és az, hogy neki milyen kapcsolatai vannak. A kapcsolatokra kattintva navigálhatsz a vendégek között.",
+    
+      "title": "Vendég-kapcsolati háló "
+  },
+  "legend": {
+    "edgeLabel": "",
+    "colorLabel": "",
+    "nodeLabel": ""
+  },
+  "features": {
+    "search": true,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "labelThreshold": 10,
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 3,
+      "minEdgeSize": 3,
+      "minNodeSize": 2,
+      "maxNodeSize": 11
+    },
+    "mouseProperties": {
+      "maxRatio": 1,
+      "minRatio": 1
+    }
+  }
+}
